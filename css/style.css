@@ -8,6 +8,7 @@ html, body {
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed;
+    overflow-x: hidden
 
     
 
@@ -53,7 +54,7 @@ html, body {
   
   @media screen and (max-width: 600px) {
     .h1-resp {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 
@@ -96,12 +97,7 @@ html, body {
     /* Text styles */
     text-align: center;
     
-    /* Background styles */
-    background-image: url(../img/bg-section-compressor.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   
 
 }
 
@@ -120,13 +116,7 @@ html, body {
     /* Text styles */
     text-align: center;
     
-    /* Background styles */
-    background-image: url(../img/bg-section-compressor.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    padding-bottom: 100px;
+
     
 }
 
