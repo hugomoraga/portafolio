@@ -123,6 +123,7 @@ html, body {
 #works {
     font-family: 'Share Tech Mono', monospace;
     text-shadow: 1px 1px black;
+    padding-top: 50px;
 
 }
 
