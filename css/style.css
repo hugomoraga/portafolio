@@ -5,10 +5,10 @@ html, body {
     background-image: url(../img/bg-section-compressor.svg);
     background-size: cover;
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: norepeat;
     background-attachment: fixed;
-
-    overflow-x: hidden;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: 1px 1px black;
 }
 
 
