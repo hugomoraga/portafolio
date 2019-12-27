@@ -1,20 +1,16 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 100%; 
     font-family: 'Share Tech Mono', monospace;
     background-image: url(../img/bg-section-compressor.svg);
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed;
-    overflow-x: hidden
 
-    
-
-
-   /* overflow: hidden; */
+    overflow-x: hidden;
 }
+
 
 .navbar {
     font-family: 'Share Tech Mono', monospaces;
