@@ -11,6 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>>
     
     <title>DEV FULLSTACK</title>
 </head>
@@ -19,7 +20,7 @@
     
     <nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-code-branch"></i>
+            <i class="text-success fas fa-code-branch"></i>
         </button>
         <a class="navbar-brand" href="#"></a>
         
@@ -28,17 +29,17 @@
                 
                 
                 <li class="nav-item active">
-                    <a class="nav-link" data-easing="easeInCubic" href="#hero"> /HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success" data-easing="easeInCubic" href="#hero"> /HOME <span class="sr-only">(current)</span></a>
                     
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link"  data-easing="easeInCubic" href="#carrusel"> /RAND0M <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success"  data-easing="easeInCubic" href="#carrusel">/About Me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link"  data-easing="easeInCubic" href="#works">/W0RKS!<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success"  data-easing="easeInCubic" href="#works">/W0RKS!<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" data-easing="easeInCubic" href="#"> @MAIL.ME<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success" data-easing="easeInCubic" href="#"> @MAIL.ME<span class="sr-only">(current)</span></a>
                 </li>
                 
             </ul>
@@ -46,38 +47,43 @@
     </nav>
     
     
-    <section class="hero" id="hero">
-        <div class="hero-inner">
+    <section class="herotest" id="hero">
+        <div class="container-fluid">
+                
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="h1-resp" id="hero-text"></h1>
+                        
+                        
+                    </div>
+                    
+                </div>
             
-            
-            <div class="row">
-                <div class="d-flex mx-auto justify-content-around">
+            <div class="row p-3">
+
+                <div class="d-flex justify-content-around mx-auto">
                     
                     <form class="form-inline">
                         
+                    
                         
                         <div class="col">
                             
-                            <div class="shadow-lg bg-info rounded">
-                                <a data-easing="easeInCubic" href="#carrusel" class="btn btn-md btn-outline-dark" role="button" aria-pressed="true">Rand@m</a>
-                                
-                            </div>
-                            
+                                <a data-easing="easeInCubic" href="#carrusel" class="btn btn-md btn-dark p-1" role="button" aria-pressed="true">ABOUT_ME</a>
+                                                        
                             
                         </div> 
                         
                         <div class="col">
                             
-                            <div class="shadow-lg bg-info rounded">
-                                <a data-easing="easeInCubic" href="#works" class="btn btn-md btn-outline-dark" role="button">W0RKS!</a>
-                            </div>
+                               <a data-easing="easeInCubic" href="#works" class="btn btn-md btn-dark p-1" role="button">W0RKS!</a>
                         </div>
                         
                         <div class="col">
-                            <div class="shadow-lg bg-info rounded">
-                                <a data-easing="easeInCubic" href="#" class="btn btn-md btn-outline-dark" role="button">@MAIL.ME </a>
+
+                                <a data-easing="easeInCubic" href="#" class="btn btn-md btn-dark p-1" role="button">@MAIL.ME </a>
                                 
-                            </div> 
+
                         </div> 
                         
                     </form>
@@ -85,43 +91,38 @@
                 </div>
             </div>
             
-            
-            
-            <div class="row">
-                
-                <div class="col"></div>
-                
-                <div class="col-12">
-                    <div class="typewriter mt-2">
-                        <h1 class="h1-resp">Hola, Bienvenidos</h1>
-                    </div>
-                    
-                    
-                </div>
-                
-                <div class="col"></div>
-                
-                
-            </div>
-            
         </div>
-    </section> 
-    
-    <section class="carrusel" id="carrusel">
         
-        <div class="row carrusel-lock">
-            <div class="col-12 pt-4">
+    </div>
+</section> 
+
+<section class="m-3" id="carrusel">
+    
+    <div class="container-fluid">
+        
+        <div class="row carrusel-box d-flex">
+            
+            <!-- titulo -->
+            <div class="col-12 pt-5">
+                <div class="text-center">
+                    <h2 id="carrusel-text"></h2>
+                </div>
+            </div>
+            <!-- titulo -->
+            
+            <!-- carrusel -->
+            <div class="col-md-8 mb-5 pl-2 pt-5">
                 
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./img/20180518_141120.jpg" class="w-75" alt="...">
+                            <img src="./img/_MG_0766.jpg" class="box-shadow d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/20180604_130117.jpg" class="w-75" alt="...">
+                            <img src="./img/20180604_130117.jpg" class="box-shadow d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/20180604_140356.jpg" class="w-75" alt="...">
+                            <img src="./img/20180604_140356.jpg" class="box-shadow d-block w-100" alt="...">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -132,77 +133,191 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
-                
+                </div>    
+            </div>
+            <!-- carrusel -->
+            
+            <!-- card - carrusel -->
+
+            <div class="row d-flex justify-content-around">
+
+            <div class="col-md-auto mb-5 mt-3">
+                <div class="card text-white bg-dark box-shadow">
+                    <div class="card-header">
+                        ¿Quien Soy?
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>Soy Hugo, Amante de las Tecnologias, Ingeniero en telecomunicaciones como profesion, ahora especializandome en desarrollo FullStack, tambien me apasiona la musica, a veces me entretengo haciendos electronica con sintetizadores o software. Tambien me gusta viajar y conocer otras realidades. 
+                            </p>
+                            <footer class="blockquote-footer"> "lorem..."<cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                    
+                </div>       
                 
             </div>
+
+            </div>
+            
+            <!-- card - carrusel -->
+            
+        </div>
+        
+    </div>
+    
+</section>
+
+
+<section id="works">
+    
+    <div class="container-fluid">
+        
+        <div class="row d-flex box-works">
+            
+            <!-- titulo -->
+            <div class="col-12 pt-5">
+                <div class="text-center">
+                    <h2 id="work-text"></h2>
+                </div>
+            </div>
+            <!-- titulo -->
+            
+            <!-- CARD-WORK -->
+
+            <div class="row row-cols-1 row-cols-md-3 py-5">
+                <div class="col mb-4">
+                    
+                    
+                    <div class="card mx-auto text-success bg-dark box-shadow" style="width: 22rem; height: 26rem">
+                        <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Iguana WebPage</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    
+                    <div class="card mx-auto text-success bg-dark box-shadow" style="width: 22rem; height: 26rem">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet & Coffe</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col mb-4">
+                    
+                    <div class="card mx-auto text-success bg-dark box-shadow" style="width: 22rem; height: 26rem">
+                        <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suricata</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            
             
             
         </div>
         
         
-    </section>
+        
+    </div>
     
-    <section class="works" id="works">
+    
+</section>
+
+
+<section id="rrss">  
+    
+    <div class="row footer-rrss">
         
         
-        <div class="row works-lock">
+        <div class="d-flex justify-content-center">
             
             
-            
-            <div class="container">
-                
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="d-flex justify-content-center">
-                        <div class="typewriter my-4">
-                            <h2 class="">Mis Trabajos</h>
-                            </div>
-                        </div>
-                        <div class="col"></div>
-                    </div>
-                    
-                    <div class="col-12 mx-auto">
-                        <div class="card-deck">
-                            <div class="card text-success bg-dark">
-                                <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Iguana WebPage</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                            <div class="card text-success bg-dark">
-                                <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Meet & Coffe</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                            <div class="card text-success bg-dark">
-                                <img src="assets/img/suricata.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Suricata</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                
+            <div class="align-self-center d-flex text-light">
+                <i class="fab fa-instagram fa-2x mx-2" aria-hidden="true"></i>
+                <i class="fab fa-facebook fa-2x mx-2" aria-hidden="true"></i>
+                <i class="fab fa-github  fa-2x mx-2" aria-hidden="true"></i>
             </div>
-        </section>
+        </div>
         
         
-        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-        
-        <script>
-            var easeInCubic = new SmoothScroll('[data-easing="easeInCubic"]', {easing: 'easeInCubic'});
-        </script>
-        
-        
-    </body>
-    </html>
+    </div>
+    
+</div>
+
+</section> 
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-success">
     
     
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="http://hugomoraga.ml" class="text-light"> http://hugomoraga.ml</a>
+    </div>
+    <!-- Copyright -->
+    
+</footer>
+<!-- Footer -->
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    var easeInCubic = new SmoothScroll('[data-easing="easeInCubic"]', {easing: 'easeInCubic'});
+</script>
+
+<script>
+    const instance = new TypeIt('#element', {
+        strings: ['This is my string!'],
+        //-- Other options...
+    }).go();
+    
+    
+    new TypeIt('#hero-text', {
+        speed: 100,
+        waitUntilVisible: true
+    })
+    .type ('Hola, soy Hugo <br> Dev Fullstack')
+    .pause(500)
+    .type (' :)')
+    .go();
+    
+    new TypeIt('#carrusel-text', {
+        speed: 100,
+        waitUntilVisible: true
+    })
+    .type ('Acerca de mi')
+    .pause(500)
+    .type ('!')
+    .go();
+    
+    new TypeIt('#work-text', {
+        speed: 100,
+        waitUntilVisible: true
+    })
+    .type ('Trabajos')
+    .type (' <i class="fas fa-tools"></i>')
+    .go();
+    
+    
+</script>
+</body>
+</html>
+
