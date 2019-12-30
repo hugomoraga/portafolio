@@ -32,7 +32,7 @@
                     <a class="nav-link text-success" data-easing="easeInCubic" href="#hero"> /HOME <span class="sr-only">(current)</span></a>
                     
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active d-none d-lg-block">
                     <a class="nav-link text-success"  data-easing="easeInCubic" href="#carrusel">/ABOUT ME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
@@ -69,7 +69,7 @@
                     
                     <form class="form-inline">
                         <div class="col">
-                                <a data-easing="easeInCubic" href="#carrusel" class="btn btn-md btn-dark p-1" role="button" aria-pressed="true">ABOUT_ME</a>    
+                                <a data-easing="easeInCubic" href="#carrusel" class="btn btn-md btn-dark p-1 d-none d-lg-block" role="button" aria-pressed="true">ABOUT_ME</a>    
                         </div> 
                         
                         <div class="col">
@@ -98,7 +98,7 @@
         <div class="row carrusel-box d-flex">
             
             <!-- titulo -->
-            <div class="col-12 pt-5">
+            <div class="col-12 pt-5 d-none d-lg-block">
                 <div class="text-center">
                     <h2 id="carrusel-text"></h2>
                 </div>
@@ -106,7 +106,7 @@
             <!-- titulo -->
             
             <!-- carrusel -->
-            <div class="col-md-8 mb-5 pl-2 pt-5">
+            <div class="col-md-8 mb-5 pl-2 pt-5 d-none d-lg-block">
                 
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
                     <div class="carousel-inner">
@@ -134,24 +134,44 @@
             
             <!-- card - carrusel -->
 
-            <div class="row d-flex justify-content-around">
+            <div class="row d-flex justify-content-around ">
 
-            <div class="col-md-auto mb-5 mt-3">
+            <div class="col-6 mb-5 mt-3 d-none d-lg-block">
                 <div class="card text-white bg-dark box-shadow">
                     <div class="card-header">
                         ¿Quien Soy?
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>Hola, Soy Hugo, Ingeniero en telecomunicaciones, ahora especializandome en Desarrollo FullStack. Soy un apasionado de las tecnologias, adquiriendo variadas experiencias en el area de las IT, desde Administrador de sistemas y Servidores Linux, Soporte IT, Soporte en Redes, Administracion de Data Center, y bueno, ahora  dando un pequeño giro en el area intruduciendome mas a fondo en el desarrollo web y de aplicaciones. Mi lado B, es el amor por la musica, tan asi que a veces me entretengo haciendos electronica con sintetizadores o mediante software. Tambien me gusta viajar y conocer diferentes realidades, fui mochilero un tiempo y recorri algunos parajes de Peru y Bolivia. 
+                            <p>Hola, Soy Hugo, Ingeniero en telecomunicaciones, ahora especializandome en Desarrollo FullStack. Soy un apasionado de las tecnologias, adquiriendo variadas experiencias en el area de las IT, desde Administrador de sistemas y Servidores Linux, Soporte IT, Soporte en Redes, Administracion de Data Center, y bueno, ahora  dando un pequeño giro en el area intruduciendome mas a fondo en el desarrollo web y de aplicaciones. 
                             </p>
-                            <footer class="blockquote-footer"> "lorem..."<cite title="Source Title">Source Title</cite></footer>
+                            <footer class="blockquote-footer"> <cite title="Source Title"></cite></footer>
                         </blockquote>
                     </div>
                     
                 </div>       
                 
             </div>
+
+            <div class="col-6 mb-5 mt-3 d-none d-lg-block">
+                <div class="card text-white bg-dark box-shadow">
+                    <div class="card-header">
+                        Lado B
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>Mi lado B, es el amor por la musica, A veces me entretengo haciendos electronica con sintetizadores o mediante software. Tambien me gusta viajar y conocer diferentes realidades, fui mochilero un tiempo y recorri algunos parajes de Peru y Bolivia. En las fotos, mis maquinas, y fotos de los lugars que visite. 
+                            </p>
+                            <footer class="blockquote-footer"> <cite title="Source Title"></cite></footer>
+                        </blockquote>
+                    </div>
+                    
+                </div>       
+                
+            </div>
+
+
+
 
             </div>
             
