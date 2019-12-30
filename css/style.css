@@ -116,6 +116,15 @@ html p {
     font-size: 1.6rem;
     }
 
+    .box-experiencia h3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+
 }
 
 .footer-rrss {
@@ -165,14 +174,21 @@ iframe {
     height: 100%;
 }
 
-h5 {
-    font-family: 'Share Tech Mono', monospace;
 
-}
 
-.box-experiencia p {
+.box-experiencia h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    text-shadow: 1px 1px black;
+    font-family: 'Montserrat', sans-serif;
 }
+   
+.card-header h4  {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-family: 'Share Tech Mono', monospace;
+}
+   
