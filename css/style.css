@@ -15,7 +15,7 @@ html {
 }
 
 html p {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     text-shadow: 1px 1px black;
     font-size: 1rem;
@@ -163,4 +163,16 @@ header {
 iframe {
     width: 100%;
     height: 100%;
+}
+
+h5 {
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.box-experiencia p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
