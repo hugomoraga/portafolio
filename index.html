@@ -33,15 +33,17 @@
                     
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-success"  data-easing="easeInCubic" href="#carrusel">/About Me<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success"  data-easing="easeInCubic" href="#carrusel">/ABOUT ME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-success"  data-easing="easeInCubic" href="#works">/W0RKS!<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-success" data-easing="easeInCubic" href="#"> @MAIL.ME<span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-success" data-easing="easeInCubic" href="#mail"> @MAIL.ME<span class="sr-only">(current)</span></a>
                 </li>
-                
+                <li class="nav-item active">
+                    <a class="nav-link text-success" data-easing="easeInCubic" href="#RRSS"> /RRSS<span class="sr-only">(current)</span></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -281,7 +283,29 @@
     </div>  
 </section>
 
-<section id="rrss">  
+<section id="mail">
+    <div class="container-fluid">
+        <div class="row d-flex box-mail m-3 pb-3">
+
+                        <!-- titulo -->
+                        <div class="col-12 pt-5">
+                            <div class="text-center">
+                                <h2 id="mail-text"></h2>
+                            </div>
+                        </div>
+                        <!-- titulo -->
+                        
+                        <div class="container">
+        
+            <div class="typeform-widget" data-url="https://hugomoraga.typeform.com/to/Itoh3D" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Itoh3D&utm_source=typeform.com-15196619-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+                    
+                     </div>
+        </div>
+    </div>
+            
+
+
+<section id="RRSS">  
     <!-- Foot Redes Sociales -->
     <div class="row footer-rrss">
          <div class="d-flex justify-content-center">
@@ -374,6 +398,14 @@
     .type (' <i class="fas fa-tools"></i>')
     .go();
     
+
+    new TypeIt('#mail-text', {
+        speed: 100,
+        cursor: false,
+        waitUntilVisible: true
+    })
+    .type ('Contactame <i class="far fa-envelope"></i>')
+    .go(); 
     
 </script>
 <!-- Efecto Escritura -->
